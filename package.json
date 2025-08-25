@@ -1,0 +1,21 @@
+{
+  "name": "cache-wrt-toolchain-action",
+  "version": "0.0.1",
+  "description": "This action caches builds to speed up openwrt compilation.",
+  "main": "fetch.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuijieNetworksCommunity/cache-wrt-toolchain.git"
+  },
+  "keywords": ["openwrt"],
+  "author": "RuijieNetworksCommunity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RuijieNetworksCommunity/cache-wrt-toolchain/issues"
+  },
+  "homepage": "https://github.com/RuijieNetworksCommunity/cache-wrt-toolchain#README",
+  "dependencies": {
+    "@actions/cache": "^4.0.2",
+    "@actions/core": "^1.11.1"
+  }
+}
