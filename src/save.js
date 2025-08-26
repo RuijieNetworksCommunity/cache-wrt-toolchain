@@ -32,8 +32,8 @@ async function saveCache() {
 
                 keyString += `-${toolchainHash}`;
                 paths.push(
-					path.join("key-build*"),
-				    path.join("build_dir", "host*"),
+                    path.join("key-build*"),
+                    path.join("build_dir", "host*"),
                     path.join("build_dir", "tool*"),
                     path.join("staging_dir", "host*"),
                     path.join("staging_dir", "tool*")

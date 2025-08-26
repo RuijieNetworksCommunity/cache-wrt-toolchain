@@ -36,8 +36,11 @@ async function fetchCache() {
 
             keyString += `-${toolchainHash}`;
             paths.push(
-                path.join("staging_dir", "host*"),
-                path.join("staging_dir", "tool*")
+                    path.join("key-build*"),
+                    path.join("build_dir", "host*"),
+                    path.join("build_dir", "tool*"),
+                    path.join("staging_dir", "host*"),
+                    path.join("staging_dir", "tool*")
             );
         } else {
             core.debug("Skipping toolchain processing");
